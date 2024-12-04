@@ -4,7 +4,7 @@ This repository contains the docker setup for frappee erpnext healthcare.
 
 ## Setup instructions with custom docker image
 
-1. Add apps in apps.json file.
+1. Add apps in apps.json file. Make changes to `.env` files if needed. Change the `FRAPPE_SITE_NAME_HEADER` in the `.env` file with your site name.
 
 2. Build custom docker image
 ```bash
